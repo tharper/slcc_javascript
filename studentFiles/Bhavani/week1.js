@@ -104,8 +104,19 @@ funtion triplesum(x,y){
 
 //Code Here
 
-function test50(x,y){
-    return(x==50||y==50||x+y==50);
+function test50(x,y) {
+    if (x == 50) {
+        return x;
+    }
+
+    if (y == 50) {
+        return y;
+    }
+
+    if (x + y == 50) {
+        return (x + y);
+    }
 }
 
-function test50(10,50);
+ test50(50,10);
+
