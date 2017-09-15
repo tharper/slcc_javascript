@@ -36,7 +36,7 @@ function isweekend(day) {
         return false;
 }
 
-isweekend("Monday")
+isweekend("Monday");
 
 //////////////////PROBLEM 3////////////////////
 
@@ -71,14 +71,28 @@ welcome();
 
 
 //Create a function called myName that returns your name
+var x;
+function myName(x){
+    return x;
+}
 
-//Code Here
-
-
+myName("lithika");
 
 //Now save the function definition of myName into a new variable called newMyName
 
-//Code Here
+
+var newMYName=function myName(x)
+{
+    return x;
+};
+
+alert ("Mynewname,"+newMYName);
+
+myName("lithika");
+
+
+
+
 
 //Now alert the result of invoking newMyName
 
@@ -90,9 +104,18 @@ welcome();
 
 //Create a function  to compute the sum of the two given integers. If the two values are same, then returns triple their sum.
 
-funtion triplesum(x,y){
+var x,y;
+function  triplesum(x,y)
+{
+
+    if (x==y)
+    {
+        return 3*(x+y);
+    }
 
 }
+
+triplesum(5,5);
 
 
 
