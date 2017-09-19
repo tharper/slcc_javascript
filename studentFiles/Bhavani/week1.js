@@ -80,16 +80,15 @@ myName("lithika");
 
 //Now save the function definition of myName into a new variable called newMyName
 
-
-var newMYName=function myName(x)
+function myName()
 {
-    return x;
+    var name;
+    name=prompt("name");
+    return name;
 };
 
-alert ("Mynewname,"+newMYName);
-
-myName("lithika");
-
+   var newMYName=myName();
+    alert('Mynewname is,'+newMYName);
 
 
 
