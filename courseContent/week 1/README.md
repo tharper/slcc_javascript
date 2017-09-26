@@ -1,4 +1,4 @@
-# slcc_javascript
+# Week 1
 
 ## PROBLEM 1
 Create a function called isWeekEnd that accepts a day of the week (Monday - Sunday) as it's only parameter.
