@@ -8,7 +8,7 @@ $(document).ready(function(){
     //$('').css('', '');
 
     //Problem 2 INDEX FILTERS
-    //$('p:gt(1)').css('', '4px solid red');
+    //$('p:gt(1)');
 
     //Problem 3 BASIC ANIMATIONS
     //$('').slideUp(2000).delay(1000).slideDown(500);
@@ -16,20 +16,20 @@ $(document).ready(function(){
 
     //Problem 4
     //$("").click(function(){
-    // $(this).hide();
+    // $().hide();
     //});
 
     //Problem 5 ATTR METHOD
-    //$('p:first').attr('class', '');
+    //$('p:first').attr('', '');
 
     //Problem 6 IMAGE SWAP
-    //$('#lesson-1 img').attr('src', 'img2.jpg');
+    //
 
     //Problem 7
-    //$('p:first').html('');
+    //
 
     //Problem 8
-    //$('input').val('');
+    //
 
     //Problem 9
     //$('').click(function() {
@@ -37,9 +37,7 @@ $(document).ready(function(){
     //});
 
     //Problem 10
-    //$('').click(function() {
-    //    $('#item1');
-    //});
+
 
 
 });
