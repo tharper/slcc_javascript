@@ -1,10 +1,10 @@
 # Week 3
 
 ## PROBLEM 1
-Select the <p> with a class of lead and change the color to orange
+Select the paragraph with a class of lead and change the color to orange
 
 ## PROBLEM 2
-Add a Border to <p> with an index greater than 1
+Add a Border to the paragraph with an index greater than 1
 
 ## PROBLEM 3
 Select all the Paragraphs in #lesson-1 and animate a slide up and slide down.
@@ -13,7 +13,7 @@ Select all the Paragraphs in #lesson-1 and animate a slide up and slide down.
 Hide the box when clicked
 
 ## PROBLEM 5
-Change <p> class from "lead" to "not-lead"
+Change the paragraph's class from "lead" to "not-lead"
 
 ## PROBLEM 6
 Swap Out the Current Image with img2.jpg
