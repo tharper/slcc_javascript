@@ -41,7 +41,7 @@ var car = {
         return "silence";
     },
     lightsFunction : function(){
-        if(car.lights = "On"){
+        if(car.lights == "On"){
             return "Lights Off";
         }
         else return "Lights On";
@@ -101,19 +101,19 @@ var radio = {
     popular: "Poor",
 
     demoChange: function () {
-        if(radio.demograph = "Teens"){
-			radio.demograph = "Adult";
+        if(radio.demograph == "Teens"){
+			radio.demograph == "Adult";
 		}
-		else radio.demograph = "Other";
+		else radio.demograph == "Other";
     },
     popChange: function () {
-        if (radio.demograph = "Adult") {
-            radio.popular = "Good";
+        if (radio.demograph == "Adult") {
+            radio.popular == "Good";
         }
-        else if(radio.demograph = "Teens") {
-            radio.popular = "Poor";
+        else if(radio.demograph == "Teens") {
+            radio.popular == "Poor";
         }
-		else radio.popular = "Fair";
+		else radio.popular == "Fair";
     }
 }
 console.log(radio.callLetters);
