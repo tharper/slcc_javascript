@@ -28,7 +28,7 @@ var car={
 
     Honk:function(){
         return "bannnnnnnnnnnn";
-    }
+    },
 
 
     Changelights:function(){
@@ -41,7 +41,7 @@ var car={
             Lights=1;
             return this.Lights;
         }
-    }
+    },
 
     checksunroof:function(){
 
